@@ -22,3 +22,14 @@ section {
 form.add-book-form button[type=submit] {
   display: block;
 }
+
+body {
+  background-color: black;
+  color: white;
+}
+@media screen and (prefers-color-scheme: light) {
+  body {
+    background-color: white;
+    color: black;
+  }
+}
